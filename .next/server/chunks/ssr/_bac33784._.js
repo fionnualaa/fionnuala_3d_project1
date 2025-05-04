@@ -255,12 +255,12 @@ function AboutPage() {
         className: "w-full h-full bg-pink-50 rounded-2xl overflow-hidden",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "relative h-[280px] sm:h-[320px] flex justify-center items-start pt-24",
+                className: "relative h-[150px] w-full flex justify-center",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$component$2f$FallingText$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                    text: `Hello, This is Fionnuala's page.`,
+                    text: "Hello! This is Fionnuala.",
                     highlightWords: [
-                        "Hello",
-                        "Fionnuala's"
+                        "Hello!",
+                        "Fionnuala"
                     ],
                     highlightClass: "highlighted",
                     trigger: "hover",
@@ -271,12 +271,37 @@ function AboutPage() {
                     mouseConstraintStiffness: 0.9
                 }, void 0, false, {
                     fileName: "[project]/src/app/about/page.js",
-                    lineNumber: 12,
+                    lineNumber: 13,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/about/page.js",
-                lineNumber: 11,
+                lineNumber: 12,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "relative h-[150px] w-full flex justify-center",
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$component$2f$FallingText$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                    text: "Welcome to my little world.",
+                    highlightWords: [
+                        "little",
+                        "world"
+                    ],
+                    highlightClass: "highlighted",
+                    trigger: "hover",
+                    backgroundColor: "transparent",
+                    wireframes: false,
+                    gravity: 0.56,
+                    fontSize: "2rem",
+                    mouseConstraintStiffness: 0.9
+                }, void 0, false, {
+                    fileName: "[project]/src/app/about/page.js",
+                    lineNumber: 28,
+                    columnNumber: 9
+                }, this)
+            }, void 0, false, {
+                fileName: "[project]/src/app/about/page.js",
+                lineNumber: 27,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -285,23 +310,17 @@ function AboutPage() {
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                         className: "text-lg text-gray-600 max-w-xl leading-relaxed",
                         children: [
-                            "我是一位熱愛創作的學生，擅長結合設計、美感與互動科技。",
+                            "還沒什麼厲害的地方，只是很多事情都想試試看。",
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                 fileName: "[project]/src/app/about/page.js",
-                                lineNumber: 30,
+                                lineNumber: 46,
                                 columnNumber: 11
                             }, this),
-                            "喜歡用甜甜的視覺風格創造溫暖與療癒的數位體驗。",
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
-                                fileName: "[project]/src/app/about/page.js",
-                                lineNumber: 32,
-                                columnNumber: 11
-                            }, this),
-                            "正在嘗試把我的想像變成真實，像是糖果一樣，讓人快樂。"
+                            "正在嘗試把我的想像變成真實，像是糖果一樣，讓人上癮。"
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/about/page.js",
-                        lineNumber: 28,
+                        lineNumber: 44,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -312,71 +331,74 @@ function AboutPage() {
                         className: "animate-bounce"
                     }, void 0, false, {
                         fileName: "[project]/src/app/about/page.js",
-                        lineNumber: 36,
+                        lineNumber: 50,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        className: "text-sm text-rose-300",
-                        children: "要來一顆糖果嗎？🍭"
+                        className: "text-sm",
+                        style: {
+                            color: "#b0c4de"
+                        },
+                        children: "要來一顆糖果嗎？"
                     }, void 0, false, {
                         fileName: "[project]/src/app/about/page.js",
-                        lineNumber: 43,
+                        lineNumber: 57,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "w-full max-w-xl space-y-6",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(SkillBar, {
-                                label: "UI 設計 (Figma)",
-                                percent: 90,
-                                color: "bg-pink-200"
-                            }, void 0, false, {
-                                fileName: "[project]/src/app/about/page.js",
-                                lineNumber: 47,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(SkillBar, {
-                                label: "3D建模 (Blender)",
-                                percent: 75,
-                                color: "bg-violet-200"
-                            }, void 0, false, {
-                                fileName: "[project]/src/app/about/page.js",
-                                lineNumber: 48,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(SkillBar, {
-                                label: "前端開發 (React/Next.js)",
-                                percent: 70,
-                                color: "bg-blue-200"
-                            }, void 0, false, {
-                                fileName: "[project]/src/app/about/page.js",
-                                lineNumber: 49,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(SkillBar, {
-                                label: "動畫設計 (AE/CSS)",
+                                label: "UIUX",
                                 percent: 85,
                                 color: "bg-rose-200"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/about/page.js",
-                                lineNumber: 50,
+                                lineNumber: 61,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(SkillBar, {
+                                label: "3D建模",
+                                percent: 65,
+                                color: "bg-violet-200"
+                            }, void 0, false, {
+                                fileName: "[project]/src/app/about/page.js",
+                                lineNumber: 62,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(SkillBar, {
+                                label: "前端開發",
+                                percent: 70,
+                                color: "bg-blue-200"
+                            }, void 0, false, {
+                                fileName: "[project]/src/app/about/page.js",
+                                lineNumber: 63,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(SkillBar, {
+                                label: "影像處理",
+                                percent: 80,
+                                color: "bg-lime-200"
+                            }, void 0, false, {
+                                fileName: "[project]/src/app/about/page.js",
+                                lineNumber: 64,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/about/page.js",
-                        lineNumber: 46,
+                        lineNumber: 60,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "w-full max-w-xl space-y-8 text-left mt-12",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                className: "text-2xl text-rose-400 font-semibold mb-2 text-center",
+                                className: "text-2xl text-blue-400 font-semibold mb-2 text-center",
                                 children: "創作旅程"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/about/page.js",
-                                lineNumber: 55,
+                                lineNumber: 69,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(TimelineItem, {
@@ -385,7 +407,7 @@ function AboutPage() {
                                 icon: "🎨"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/about/page.js",
-                                lineNumber: 59,
+                                lineNumber: 73,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(TimelineItem, {
@@ -394,7 +416,7 @@ function AboutPage() {
                                 icon: "🧊"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/about/page.js",
-                                lineNumber: 64,
+                                lineNumber: 78,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(TimelineItem, {
@@ -403,19 +425,19 @@ function AboutPage() {
                                 icon: "🎪"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/about/page.js",
-                                lineNumber: 69,
+                                lineNumber: 83,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/about/page.js",
-                        lineNumber: 54,
+                        lineNumber: 68,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/app/about/page.js",
-                lineNumber: 26,
+                lineNumber: 42,
                 columnNumber: 7
             }, this)
         ]
@@ -436,7 +458,7 @@ function SkillBar({ label, percent, color }) {
                         children: label
                     }, void 0, false, {
                         fileName: "[project]/src/app/about/page.js",
-                        lineNumber: 85,
+                        lineNumber: 99,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -446,13 +468,13 @@ function SkillBar({ label, percent, color }) {
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/about/page.js",
-                        lineNumber: 86,
+                        lineNumber: 100,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/app/about/page.js",
-                lineNumber: 84,
+                lineNumber: 98,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -464,18 +486,18 @@ function SkillBar({ label, percent, color }) {
                     }
                 }, void 0, false, {
                     fileName: "[project]/src/app/about/page.js",
-                    lineNumber: 89,
+                    lineNumber: 103,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/about/page.js",
-                lineNumber: 88,
+                lineNumber: 102,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/app/about/page.js",
-        lineNumber: 83,
+        lineNumber: 97,
         columnNumber: 5
     }, this);
 }
@@ -488,23 +510,23 @@ function TimelineItem({ year, title, icon }) {
                 className: "flex flex-col items-center",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "w-4 h-4 rounded-full bg-gradient-to-tr from-pink-300 to-rose-400 shadow-md"
+                        className: "w-4 h-4 rounded-full bg-gradient-to-tr from-blue-200"
                     }, void 0, false, {
                         fileName: "[project]/src/app/about/page.js",
-                        lineNumber: 104,
+                        lineNumber: 118,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "w-[2px] h-full bg-rose-200 mt-1"
                     }, void 0, false, {
                         fileName: "[project]/src/app/about/page.js",
-                        lineNumber: 105,
+                        lineNumber: 119,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/app/about/page.js",
-                lineNumber: 103,
+                lineNumber: 117,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -514,11 +536,11 @@ function TimelineItem({ year, title, icon }) {
                         className: "flex items-center gap-2",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                className: "text-sm text-rose-400 font-semibold",
+                                className: "text-sm text-sky-400 font-semibold",
                                 children: year
                             }, void 0, false, {
                                 fileName: "[project]/src/app/about/page.js",
-                                lineNumber: 111,
+                                lineNumber: 125,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -526,13 +548,13 @@ function TimelineItem({ year, title, icon }) {
                                 children: icon
                             }, void 0, false, {
                                 fileName: "[project]/src/app/about/page.js",
-                                lineNumber: 112,
+                                lineNumber: 126,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/about/page.js",
-                        lineNumber: 110,
+                        lineNumber: 124,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -540,19 +562,19 @@ function TimelineItem({ year, title, icon }) {
                         children: title
                     }, void 0, false, {
                         fileName: "[project]/src/app/about/page.js",
-                        lineNumber: 114,
+                        lineNumber: 128,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/app/about/page.js",
-                lineNumber: 109,
+                lineNumber: 123,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/app/about/page.js",
-        lineNumber: 101,
+        lineNumber: 115,
         columnNumber: 5
     }, this);
 }

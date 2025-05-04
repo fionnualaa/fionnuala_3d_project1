@@ -91,15 +91,17 @@ export default function RootLayout({ children }) {
                 </div>
               </Link>
               
-              <Link href="/work">
+              <Link href="/me2">
                 <div className="w-full h-[84px] bg-pink-100 hover:bg-pink-200 text-pink-300 rounded-xl flex items-center justify-center text-lg font-medium shadow">
                   Also Meeeeee
                 </div>
               </Link>
 
+              <Link href="/me3">
               <div className="w-full h-[84px] bg-blue-100 hover:bg-blue-200 text-blue-300 rounded-xl flex items-center justify-center text-lg font-medium shadow">
-                作品分類三
+                Still Meeeeee
               </div>
+              </Link>
 
             </div>
           </div>

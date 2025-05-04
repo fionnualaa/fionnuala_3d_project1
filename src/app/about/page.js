@@ -8,10 +8,26 @@ export default function AboutPage() {
   return (
     <div className="w-full h-full bg-pink-50 rounded-2xl overflow-hidden">
       {/* 上方動畫空間 */}
-      <div className="relative h-[280px] sm:h-[320px] flex justify-center items-start pt-24">
+      {/* 第一段 FallingText */}
+      <div className="relative h-[150px] w-full flex justify-center">
         <FallingText
-          text={`Hello, This is Fionnuala's page.`}
-          highlightWords={["Hello", "Fionnuala's"]}
+          text="Hello! This is Fionnuala."
+          highlightWords={["Hello!", "Fionnuala"]}
+          highlightClass="highlighted"
+          trigger="hover"
+          backgroundColor="transparent"
+          wireframes={false}
+          gravity={0.56}
+          fontSize="2rem"
+          mouseConstraintStiffness={0.9}
+        />
+      </div>
+
+      {/* 第二段 FallingText */}
+      <div className="relative h-[150px] w-full flex justify-center">
+        <FallingText
+          text="Welcome to my little world."
+          highlightWords={["little" ,"world"]}
           highlightClass="highlighted"
           trigger="hover"
           backgroundColor="transparent"
@@ -26,11 +42,9 @@ export default function AboutPage() {
       <div className="h-[calc(100%-320px)] overflow-y-auto px-8 py-12 flex flex-col items-center text-center space-y-10">
         {/* 自我介紹 */}
         <p className="text-lg text-gray-600 max-w-xl leading-relaxed">
-          我是一位熱愛創作的學生，擅長結合設計、美感與互動科技。
+          還沒什麼厲害的地方，只是很多事情都想試試看。
           <br />
-          喜歡用甜甜的視覺風格創造溫暖與療癒的數位體驗。
-          <br />
-          正在嘗試把我的想像變成真實，像是糖果一樣，讓人快樂。
+          正在嘗試把我的想像變成真實，像是糖果一樣，讓人上癮。
         </p>
 
         <Image
@@ -40,19 +54,19 @@ export default function AboutPage() {
           height={60}
           className="animate-bounce"
         />
-        <p className="text-sm text-rose-300">要來一顆糖果嗎？🍭</p>
+        <p className="text-sm" style={{ color: "#b0c4de" }}>要來一顆糖果嗎？</p>
 
         {/* 技能區塊 */}
         <div className="w-full max-w-xl space-y-6">
-          <SkillBar label="UI 設計 (Figma)" percent={90} color="bg-pink-200" />
-          <SkillBar label="3D建模 (Blender)" percent={75} color="bg-violet-200" />
-          <SkillBar label="前端開發 (React/Next.js)" percent={70} color="bg-blue-200" />
-          <SkillBar label="動畫設計 (AE/CSS)" percent={85} color="bg-rose-200" />
+          <SkillBar label="UIUX" percent={85} color="bg-rose-200" />
+          <SkillBar label="3D建模" percent={65} color="bg-violet-200" />
+          <SkillBar label="前端開發" percent={70} color="bg-blue-200" />
+          <SkillBar label="影像處理" percent={80} color="bg-lime-200" />
         </div>
 
         {/* 時間軸區塊 */}
         <div className="w-full max-w-xl space-y-8 text-left mt-12">
-          <h2 className="text-2xl text-rose-400 font-semibold mb-2 text-center">
+          <h2 className="text-2xl text-blue-400 font-semibold mb-2 text-center">
             創作旅程
           </h2>
 
@@ -101,14 +115,14 @@ function TimelineItem({ year, title, icon }) {
     <div className="relative flex items-start gap-4 pl-6">
       {/* 左側圓點與垂直線 */}
       <div className="flex flex-col items-center">
-        <div className="w-4 h-4 rounded-full bg-gradient-to-tr from-pink-300 to-rose-400 shadow-md"></div>
+        <div className="w-4 h-4 rounded-full bg-gradient-to-tr from-blue-200"></div>
         <div className="w-[2px] h-full bg-rose-200 mt-1"></div>
       </div>
 
       {/* 右側內容 */}
       <div className="text-left">
         <div className="flex items-center gap-2">
-          <span className="text-sm text-rose-400 font-semibold">{year}</span>
+          <span className="text-sm text-sky-400 font-semibold">{year}</span>
           <span className="text-xl">{icon}</span>
         </div>
         <p className="text-base text-gray-700 font-medium">{title}</p>

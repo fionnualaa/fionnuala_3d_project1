@@ -14,13 +14,13 @@
   
   .word {
     display: inline-block;
-    color:pink;
+    color:lightsteelblue;
     margin: 0 2px;
     user-select: none;
   }
   
   .highlighted {
-    color:palevioletred;
+    color:cornflowerblue;
     font-weight: bold;
   }
   

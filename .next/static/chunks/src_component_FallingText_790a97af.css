@@ -14,14 +14,14 @@
 }
 
 .word {
-  color: pink;
+  color: #b0c4de;
   user-select: none;
   margin: 0 2px;
   display: inline-block;
 }
 
 .highlighted {
-  color: #db7093;
+  color: #6495ed;
   font-weight: bold;
 }
 
